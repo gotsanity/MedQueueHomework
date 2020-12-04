@@ -7,3 +7,12 @@ C:\Users\gotsa\source\repos\MedQueue\MedQueue\obj\Debug\net30\MedQueue.AssemblyI
 C:\Users\gotsa\source\repos\MedQueue\MedQueue\obj\Debug\net30\MedQueue.csproj.CoreCompileInputs.cache
 C:\Users\gotsa\source\repos\MedQueue\MedQueue\obj\Debug\net30\MedQueue.exe
 C:\Users\gotsa\source\repos\MedQueue\MedQueue\obj\Debug\net30\MedQueue.pdb
+C:\Users\gotsa\source\MedQueueHomework\MedQueue\bin\Debug\net30\MedQueue.exe.config
+C:\Users\gotsa\source\MedQueueHomework\MedQueue\bin\Debug\net30\MedQueue.exe
+C:\Users\gotsa\source\MedQueueHomework\MedQueue\bin\Debug\net30\MedQueue.pdb
+C:\Users\gotsa\source\MedQueueHomework\MedQueue\obj\Debug\net30\MedQueue.csprojAssemblyReference.cache
+C:\Users\gotsa\source\MedQueueHomework\MedQueue\obj\Debug\net30\MedQueue.AssemblyInfoInputs.cache
+C:\Users\gotsa\source\MedQueueHomework\MedQueue\obj\Debug\net30\MedQueue.AssemblyInfo.cs
+C:\Users\gotsa\source\MedQueueHomework\MedQueue\obj\Debug\net30\MedQueue.csproj.CoreCompileInputs.cache
+C:\Users\gotsa\source\MedQueueHomework\MedQueue\obj\Debug\net30\MedQueue.exe
+C:\Users\gotsa\source\MedQueueHomework\MedQueue\obj\Debug\net30\MedQueue.pdb

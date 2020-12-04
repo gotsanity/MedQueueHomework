@@ -6,6 +6,8 @@ namespace MedQueue
     {
         static void Main(string[] args)
         {
+            ERQueue queue = new ERQueue();
+
             bool exitMenu = false;
 
             while (!exitMenu)
@@ -16,13 +18,13 @@ namespace MedQueue
                 switch (choice)
                 {
                     case "a":
-                        AddPatient();
+                        Add(queue);
                         break;
                     case "p":
-                        ProcessPatient();
+                        Remove(queue);
                         break;
                     case "l":
-                        List();
+                        List(queue);
                         break;
                     case "q":
                         Console.WriteLine("Goodbye");
@@ -41,19 +43,44 @@ namespace MedQueue
             Console.WriteLine("(A)dd Patient  (P)rocess Current Patient  (L)ist All in Queue  (Q)uit");
         }
 
-        static void AddPatient()
+        static void Add(ERQueue queue)
         {
-            Console.WriteLine("Adding Patient");
+            Console.WriteLine("What is the patient's name?");
+            string name = Console.ReadLine();
+            Console.WriteLine("What is the patient's priority?");
+            int priority = Convert.ToInt32(Console.ReadLine());
+
+            int result = queue.Enqueue(new Patient(name, priority));
+            if (result == -1)
+            {
+                Console.WriteLine("Queue was full");
+            }
         }
 
-        static void ProcessPatient()
+        static void Remove(ERQueue queue)
         {
-            Console.WriteLine("Processing Patient");
+            Patient patient = queue.Dequeue();
+            if (patient == null)
+            {
+                Console.WriteLine("There are no more patients in the queue.");
+            }
+            else
+            {
+                Console.WriteLine("Processing patient: {0} with a priority of {1}", patient.Name, patient.Priority);
+            }
         }
 
-        static void List()
+        static void List(ERQueue queue)
         {
-            Console.WriteLine("Listing all Patients");
+            if (queue.IsEmpty())
+            {
+                Console.WriteLine("No Patients in the queue");
+            }
+            else
+            {
+                Console.WriteLine("Listing all Patients");
+                Console.Write(queue.ToString());
+            }
         }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gotsa\\source\\repos\\MedQueue\\MedQueue\\MedQueue.csproj": {}
+    "C:\\Users\\gotsa\\source\\MedQueueHomework\\MedQueue\\MedQueue.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gotsa\\source\\repos\\MedQueue\\MedQueue\\MedQueue.csproj": {
+    "C:\\Users\\gotsa\\source\\MedQueueHomework\\MedQueue\\MedQueue.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gotsa\\source\\repos\\MedQueue\\MedQueue\\MedQueue.csproj",
+        "projectUniqueName": "C:\\Users\\gotsa\\source\\MedQueueHomework\\MedQueue\\MedQueue.csproj",
         "projectName": "MedQueue",
-        "projectPath": "C:\\Users\\gotsa\\source\\repos\\MedQueue\\MedQueue\\MedQueue.csproj",
+        "projectPath": "C:\\Users\\gotsa\\source\\MedQueueHomework\\MedQueue\\MedQueue.csproj",
         "packagesPath": "C:\\Users\\gotsa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gotsa\\source\\repos\\MedQueue\\MedQueue\\obj\\",
+        "outputPath": "C:\\Users\\gotsa\\source\\MedQueueHomework\\MedQueue\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\gotsa\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -37,7 +37,7 @@
       },
       "frameworks": {
         "net30": {
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
